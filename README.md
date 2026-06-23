@@ -39,21 +39,58 @@ Rather than chasing an inflated headline accuracy number, this project deliberat
 
 > **The gap between these two numbers *is* the finding.** Pre-match cricket prediction sits close to a coin flip with a real but modest edge; live-match prediction is highly reliable. Full methodology — including the point-in-time feature engineering and the match-level train/test split used to prevent leakage — is in the [notebook](notebooks/IPL_Winning_Team_Prediction.ipynb).
 
+
 ---
 
-## 🖼️ Live Demo
+## 📸 Live Demo
 
 <div align="center">
-<img src="assets/screenshot_prematch.png" alt="Pre-Match Predictor screenshot" width="800">
-<br><em>Pre-Match Predictor — win probability bar, confidence score, and plain-language explanation</em>
+
+### 🏏 Pre-Match Predictor
+
+<!-- <table>
+<tr>
+<td><img src="assets/prematch_1.png" width="280"></td>
+<td><img src="assets/prematch_2.png" width="280"></td>
+<td><img src="assets/prematch_3.png" width="280"></td>
+</tr>
+</table> -->
+<div align="center">
+<img src="assets/prematch_1.png" width="280">
+<img src="assets/prematch_2.png" width="280">
+<img src="assets/prematch_3.png" width="280">
+</div>
+<em>Win probability bar, confidence score, and plain-language explanation of the prediction</em>
+
 <br><br>
-<img src="assets/screenshot_live.png" alt="Live Match Predictor screenshot" width="800">
-<br><em>Live Match Predictor — real-time win probability as the chase unfolds</em>
+
+### 📈 Live Match Predictor
+
+<table>
+<tr>
+<td><img src="assets/live_1.png" width="280"></td>
+<td><img src="assets/live_2.png" width="280"></td>
+<td><img src="assets/live_3.png" width="280"></td>
+</tr>
+</table>
+
+<em>Real-time win probability, match situation analysis, and dynamic progress tracking as the chase unfolds</em>
+
+<br><br>
+
+### 📊 Analytics Dashboard
+
+<img src="assets/dashboard_1.png" width="270">
+<img src="assets/dashboard_2.png" width="270">
+<img src="assets/dashboard_3.png" width="270">
+
+<em>Team win % rankings, toss-decision trends, and venue chase-success analysis from 2008–2024 IPL history</em>
+
+
 </div>
 
-> Add your own screenshots to `assets/` and update the paths above — see [Adding Screenshots](#adding-screenshots) below.
-
 ---
+
 
 ## ✨ Features
 
