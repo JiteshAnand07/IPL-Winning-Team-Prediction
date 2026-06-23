@@ -112,7 +112,7 @@ IPL_Winning_Team_Prediction/
 │       ├── pre_match_lookups.pkl           # Team/venue/city/H2H stat lookup tables
 │       └── live_match_lookups.pkl          # Venue/team chase-stat lookup tables
 │
-├── assets/                                 # Screenshots, logo (optional, see below)
+├── assets/                                 # Screenshots, logo
 ├── app.py                                  # Multi-page Streamlit application
 ├── requirements.txt
 └── README.md
