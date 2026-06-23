@@ -48,13 +48,6 @@ Rather than chasing an inflated headline accuracy number, this project deliberat
 
 ### 🏏 Pre-Match Predictor
 
-<!-- <table>
-<tr>
-<td><img src="assets/prematch_1.png" width="280"></td>
-<td><img src="assets/prematch_2.png" width="280"></td>
-<td><img src="assets/prematch_3.png" width="280"></td>
-</tr>
-</table> -->
 <div align="center">
 <img src="assets/prematch_1.png" width="280">
 <img src="assets/prematch_2.png" width="280">
@@ -66,13 +59,9 @@ Rather than chasing an inflated headline accuracy number, this project deliberat
 
 ### 📈 Live Match Predictor
 
-<table>
-<tr>
-<td><img src="assets/live_1.png" width="280"></td>
-<td><img src="assets/live_2.png" width="280"></td>
-<td><img src="assets/live_3.png" width="280"></td>
-</tr>
-</table>
+<img src="assets/live_1.png" width="280">
+<img src="assets/live_2.png" width="280">
+<img src="assets/live_3.png" width="280">
 
 <em>Real-time win probability, match situation analysis, and dynamic progress tracking as the chase unfolds</em>
 
@@ -80,9 +69,9 @@ Rather than chasing an inflated headline accuracy number, this project deliberat
 
 ### 📊 Analytics Dashboard
 
-<img src="assets/dashboard_1.png" width="270">
-<img src="assets/dashboard_2.png" width="270">
-<img src="assets/dashboard_3.png" width="270">
+<img src="assets/dashboard_1.png" width="280">
+<img src="assets/dashboard_2.png" width="280">
+<img src="assets/dashboard_3.png" width="280">
 
 <em>Team win % rankings, toss-decision trends, and venue chase-success analysis from 2008–2024 IPL history</em>
 
@@ -173,18 +162,30 @@ Rather than mechanically running every algorithm available, the notebook trains 
 
 ## 🖥️ Installation & Setup
 
+### Prerequisites
+- Python 3.10 or higher
+- pip package manager
+- Git (optional)
+
+### Step 1: Clone the repository
 ```bash
-# 1. Clone the repo
-git clone https://github.com/<your-username>/IPL_Winning_Team_Prediction.git
+git clone https://github.com/yourusername/IPL_Winning_Team_Prediction.git
 cd IPL_Winning_Team_Prediction
+```
 
-# 2. Create a virtual environment (recommended)
+### Step 2: Create virtual environment (recommended)
+```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate        # Linux/macOS
+venv\Scripts\activate           # Windows
+```
 
-# 3. Install dependencies
+### Step 3: Install dependencies
+```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## 📓 Running the Notebook
 
@@ -196,6 +197,8 @@ jupyter notebook IPL_Winning_Team_Prediction.ipynb
 Runs top-to-bottom without modification (paths are relative to `notebooks/`, e.g. `../data/matches.csv`) and regenerates everything under `models/` if re-run.
 
 > ⏱️ Full notebook runtime (hyperparameter search across both predictors + permutation importance + SHAP) is roughly 5–7 minutes on a typical machine.
+
+---
 
 ## 🚀 Running the Streamlit App
 
